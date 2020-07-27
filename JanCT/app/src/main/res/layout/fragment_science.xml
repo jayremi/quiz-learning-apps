@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFBA52"
+    tools:context=".ScienceFragment">
+
+    <TextView
+        android:id="@+id/sciencetitle"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_science"
+        android:drawablePadding="10dp"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:text="Science"
+
+        />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="#00FF00"
+        android:textColor="#000"
+
+        android:id="@+id/science_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy (6-8)" />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="#6A5ACD"
+        android:textColor="#fff"
+
+        android:id="@+id/science_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium (9-10)" />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="#FF4500"
+        android:textColor="#fff"
+
+        android:id="@+id/science_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hard (11-12)" />
+
+</LinearLayout>

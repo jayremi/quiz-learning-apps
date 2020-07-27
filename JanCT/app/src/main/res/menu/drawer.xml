@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="">
+        <menu>
+            <item
+                android:icon="@drawable/ic_courseb"
+                android:id="@+id/course"
+                android:title="Course">
+            </item>
+            <item
+                android:id="@+id/leaderboard"
+                android:icon="@drawable/ic_leaderboard"
+                android:title="Leaderboard">
+            </item>
+            <item
+                android:icon="@drawable/ic_logout"
+                android:id="@+id/logout"
+
+                android:title="Logout">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>

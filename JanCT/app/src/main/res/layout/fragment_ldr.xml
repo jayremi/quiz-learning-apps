@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBA52"
+    android:orientation="vertical"
+    tools:context=".LdrFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableTop="@drawable/ic_leaderboard"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Leaderboard"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ldr_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_bg"
+            android:backgroundTint="#008080"
+            android:text="English"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/ldr_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_bg"
+            android:backgroundTint="#FF4500"
+            android:text="Math"
+
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/ldr_science"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_bg"
+            android:backgroundTint="#6495ED"
+            android:text="Science"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_firstplace"
+        android:drawableLeft="@drawable/ic_firstplace"
+        android:drawablePadding="10dp"
+        android:id="@+id/firstPlace"
+        android:layout_gravity="center_horizontal"
+        android:text="Jay 10"
+        android:textColorHint="#fff"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_secondplace"
+        android:drawableLeft="@drawable/ic_secondplace"
+        android:drawablePadding="10dp"
+        android:id="@+id/secondPlace"
+        android:text="Alex 8"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#fff"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_thirdplace"
+        android:drawableLeft="@drawable/ic_thirdplace"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Kn 7"
+        android:id="@+id/thirdPlace"
+        android:textColorHint="#fff"
+        android:textAlignment="gravity"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "174306854353",
+    "firebase_url": "https://janct-53eab.firebaseio.com",
+    "project_id": "janct-53eab",
+    "storage_bucket": "janct-53eab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174306854353:android:bc9f104745c7ae8b7dccf0",
+        "android_client_info": {
+          "package_name": "com.example.janct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174306854353-vd43s53ppbigdf0oabf1gi6j83iumifr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7a_5TvM2-84QSjVnnj6rKD0pVTMIOcN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174306854353-vd43s53ppbigdf0oabf1gi6j83iumifr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

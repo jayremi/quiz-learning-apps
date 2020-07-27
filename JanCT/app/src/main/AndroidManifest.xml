@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janct">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnimationActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".RegisterActivity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".EnglishEasy_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".EnglishMedium_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".EnglishHard_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MathEasy_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MathMedium_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MathHard_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ScienceEasy_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ScienceMedium_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ScienceHard_activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
